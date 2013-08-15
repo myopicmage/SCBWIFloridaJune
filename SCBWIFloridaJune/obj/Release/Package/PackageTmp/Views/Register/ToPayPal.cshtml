@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "ToPayPal";
+}
+
+<h2>To PayPal!</h2>
+
+<p>
+    This is your last step with us! You should end up here again, but don't worry if you don't. You're off to PayPal now.
+</p>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <input type="hidden" name="cmd" value="_xclick" />
+    <input type="hidden" name="business" value="linda@scbwiflorida.com" />
+    <input type="hidden" name="item_name" value="SCBWI Florida June Conference" />
+    <input type="hidden" name="currency_code" value="USD" />
+    <input type="hidden" name="custom" value="@ViewBag.paypalid" />
+    <input type="hidden" name="amount" value="@ViewBag.total" />
+    <input type="submit" name="submit" value="Continue" />
+</form>

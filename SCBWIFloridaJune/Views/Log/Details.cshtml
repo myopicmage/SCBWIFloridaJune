@@ -1,0 +1,36 @@
+﻿@model SCBWIFloridaJune.Models.Log
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Log</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Origin)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Origin)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Message)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Message)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Time)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Time)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.LogID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,27 @@
+﻿@model SCBWIFloridaJune.Models.Date
+
+@Html.HiddenFor(model => model.DateID)
+
+<div class="editor-label">
+    @Html.LabelFor(model => model.Name)
+</div>
+<div class="editor-field">
+    @Html.EditorFor(model => model.Name)
+    @Html.ValidationMessageFor(model => model.Name)
+</div>
+
+<div class="editor-label">
+    @Html.LabelFor(model => model.Value)
+</div>
+<div class="editor-field">
+    @Html.EditorFor(model => model.Value)
+    @Html.ValidationMessageFor(model => model.Value)
+</div>
+
+<div class="editor-label">
+    @Html.LabelFor(model => model.Category)
+</div>
+<div class="editor-field">
+    @Html.DropDownListFor(model => model.Category, (SelectList)ViewBag.categories)
+    @Html.ValidationMessageFor(model => model.Category)
+</div>

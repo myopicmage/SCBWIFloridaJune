@@ -1,0 +1,36 @@
+﻿@model SCBWIFloridaJune.Models.Track
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Track</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Name)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Name)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Presenters)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Presenters)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Display)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Display)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.TrackID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,53 @@
+﻿@model SCBWIFloridaJune.Models.Registration
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<fieldset>
+    <legend>Registration</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Type)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Type)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Intensive)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Intensive)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Track)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Track)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.FridayLunch)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.FridayLunch)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.SaturdayLunch)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.SaturdayLunch)
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    <p>
+        <input type="submit" value="Delete" /> |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}

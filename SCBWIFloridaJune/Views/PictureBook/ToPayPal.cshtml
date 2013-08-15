@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "To Pay Pal!";
+}
+
+<h2>So . . .</h2>
+
+<p>
+    You're heading off to PayPal now! Good luck, god speed, and please, try to come back!
+</p>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <input type="hidden" name="cmd" value="_xclick" />
+    <input type="hidden" name="business" value="linda@scbwiflorida.com" />
+    <input type="hidden" name="item_name" value="SCBWI Florida Lisa Wheeler Picture Book Boot Camp" />
+    <input type="hidden" name="currency_code" value="USD" />
+    <input type="hidden" name="custom" value="@ViewBag.paypalid" />
+    <input type="hidden" name="amount" value="@ViewBag.total" />
+    <input type="submit" name="submit" value="Continue" />
+</form>

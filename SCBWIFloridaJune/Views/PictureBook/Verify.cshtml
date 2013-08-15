@@ -1,0 +1,115 @@
+﻿@model SCBWIFloridaJune.Models.LisaWheeler
+
+@{
+    ViewBag.Title = "Verify";
+}
+
+<h2>Verify your information</h2>
+<p>
+    Just hit back if there are any issues. Otherwise, click finish and pay to go to paypal.
+</p>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken();
+    <fieldset>
+        <legend>LisaWheeler</legend>
+        @Html.HiddenFor(model => model.LisaWheelerID)
+
+        <div class="display-label">
+             @Html.DisplayNameFor(model => model.FirstName)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.FirstName)
+        </div>
+
+        <div class="display-label">
+             @Html.DisplayNameFor(model => model.LastName)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.LastName)
+        </div>
+
+        <div class="display-label">
+             @Html.DisplayNameFor(model => model.Address1)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.Address1)
+        </div>
+
+        <div class="display-label">
+             @Html.DisplayNameFor(model => model.Address2)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.Address2)
+        </div>
+
+        <div class="display-label">
+             @Html.DisplayNameFor(model => model.City)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.City)
+        </div>
+
+        <div class="display-label">
+             @Html.DisplayNameFor(model => model.State)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.State)
+        </div>
+
+        <div class="display-label">
+             @Html.DisplayNameFor(model => model.Zip)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.Zip)
+        </div>
+
+        <div class="display-label">
+             @Html.DisplayNameFor(model => model.Phone)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.Phone)
+        </div>
+
+        <div class="display-label">
+             @Html.DisplayNameFor(model => model.Email)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.Email)
+        </div>
+
+        <div class="display-label">
+             @Html.DisplayNameFor(model => model.Member)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.Member)
+        </div>
+
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.Critique)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.Critique)
+        </div>
+
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.Total)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.Total)
+        </div>
+    </fieldset>
+    
+    if (ViewBag.wl == "true")
+    {
+        <aside>
+            <div style="color: red;">
+                YOU ARE ON THE WAITING LIST
+            </div>
+        </aside>
+    }
+    
+    <p>
+        <input type="submit" value="Finish and Pay" />
+    </p>
+}

@@ -1,0 +1,108 @@
+﻿@model SCBWIFloridaJune.Models.ViewModels.TrackModel
+
+@{
+    ViewBag.Title = "Tracks";
+}
+
+<h2>Tracks</h2>
+
+<p>
+    Name your tracks here! Remember, you can always edit them later. If you don't know who is presenting, or there are
+    too many presenters, you don't need to worry about entering their names in the box.
+</p>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>TrackModel</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Track1)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Track1)
+            @Html.ValidationMessageFor(model => model.Track1)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Track1Presenters)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Track1Presenters)
+            @Html.ValidationMessageFor(model => model.Track1Presenters)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Track2)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Track2)
+            @Html.ValidationMessageFor(model => model.Track2)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Track2Presenters)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Track2Presenters)
+            @Html.ValidationMessageFor(model => model.Track2Presenters)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Track3)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Track3)
+            @Html.ValidationMessageFor(model => model.Track3)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Track3Presenters)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Track3Presenters)
+            @Html.ValidationMessageFor(model => model.Track3Presenters)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Track4)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Track4)
+            @Html.ValidationMessageFor(model => model.Track4)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Track4Presenters)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Track4Presenters)
+            @Html.ValidationMessageFor(model => model.Track4Presenters)
+        </div>
+        
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Track5)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Track5)
+            @Html.ValidationMessageFor(model => model.Track5)
+        </div>
+        
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Track5Presenters)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Track5Presenters)
+            @Html.ValidationMessageFor(model => model.Track5Presenters)
+        </div>
+
+        <p>
+            <input type="submit" value="Continue" />
+        </p>
+    </fieldset>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

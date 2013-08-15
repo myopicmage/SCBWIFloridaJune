@@ -1,0 +1,164 @@
+﻿@model SCBWIFloridaJune.Models.User
+
+@{
+    ViewBag.Title = "Verify";
+}
+
+<h2>Verify</h2>
+
+<article>
+    <fieldset>
+        <legend>User</legend>
+        <div style="float: left; width: 60%;">
+            <div class="display-label">
+                @Html.DisplayNameFor(model => model.FirstName)
+            </div>
+            <div class="display-field">
+                @Html.DisplayFor(model => model.FirstName)
+            </div>
+
+            <div class="display-label">
+                @Html.DisplayNameFor(model => model.LastName)
+            </div>
+            <div class="display-field">
+                @Html.DisplayFor(model => model.LastName)
+            </div>
+
+            <div class="display-label">
+                @Html.DisplayNameFor(model => model.BadgeName)
+            </div>
+            <div class="display-field">
+                @Html.DisplayFor(model => model.BadgeName)
+            </div>
+
+            <div class="display-label">
+                @Html.DisplayNameFor(model => model.FullName)
+            </div>
+            <div class="display-field">
+                @Html.DisplayFor(model => model.FullName)
+            </div>
+
+            <div class="display-label">
+                @Html.DisplayNameFor(model => model.Address1)
+            </div>
+            <div class="display-field">
+                @Html.DisplayFor(model => model.Address1)
+            </div>
+
+            <div class="display-label">
+                @Html.DisplayNameFor(model => model.Address2)
+            </div>
+            <div class="display-field">
+                @Html.DisplayFor(model => model.Address2)
+            </div>
+
+            <div class="display-label">
+                @Html.DisplayNameFor(model => model.City)
+            </div>
+            <div class="display-field">
+                @Html.DisplayFor(model => model.City)
+            </div>
+
+            <div class="display-label">
+                @Html.DisplayNameFor(model => model.State)
+            </div>
+            <div class="display-field">
+                @Html.DisplayFor(model => model.State)
+            </div>
+
+            <div class="display-label">
+                @Html.DisplayNameFor(model => model.PostalCode)
+            </div>
+            <div class="display-field">
+                @Html.DisplayFor(model => model.PostalCode)
+            </div>
+
+            <div class="display-label">
+                @Html.DisplayNameFor(model => model.Country)
+            </div>
+            <div class="display-field">
+                @Html.DisplayFor(model => model.Country)
+            </div>
+
+            <div class="display-label">
+                @Html.DisplayNameFor(model => model.Email)
+            </div>
+            <div class="display-field">
+                @Html.DisplayFor(model => model.Email)
+            </div>
+
+            <div class="display-label">
+                @Html.DisplayNameFor(model => model.Phone)
+            </div>
+            <div class="display-field">
+                @Html.DisplayFor(model => model.Phone)
+            </div>
+
+            <div class="display-label">
+                @Html.DisplayNameFor(model => model.SpecialNeeds)
+            </div>
+            <div class="display-field">
+                @Html.DisplayFor(model => model.SpecialNeeds)
+            </div>
+        </div>
+        <div style="float: left;">
+            <div class="display-label">
+                @Html.DisplayNameFor(model => model.Registration.Type)
+            </div>
+            <div class="display-field">
+                @Html.DisplayFor(model => model.Registration.Type)
+            </div>
+            <div class="display-label">
+                @Html.DisplayNameFor(model => model.Registration.Track)
+            </div>
+            <div class="display-field">
+                @Html.DisplayFor(model => model.Registration.Track)
+            </div>
+            <div class="display-label">
+                @Html.DisplayNameFor(model => model.Registration.SaturdayLunch)
+            </div>
+            <div class="display-field">
+                @Html.DisplayFor(model => model.Registration.SaturdayLunch)
+            </div>
+            <div class="display-label">
+                @Html.DisplayNameFor(model => model.Registration.Intensive)
+            </div>
+            <div class="display-field">
+                @Html.DisplayFor(model => model.Registration.Intensive)
+            </div>
+            <div class="display-label">
+                @Html.DisplayNameFor(model => model.Registration.FridayLunch)
+            </div>
+            <div class="display-field">
+                @Html.DisplayFor(model => model.Registration.FridayLunch)
+            </div>
+        </div>
+    </fieldset>
+</article>
+
+@if (ViewBag.displaycritiques != null) {
+    <aside>
+        <h3>Critiques Requested</h3>
+        @foreach (var item in Model.Critiques) {
+            <p>@item.CritiqueID</p>
+            <p>@item.Type</p>
+        }
+    </aside>
+}
+
+<div class="clear-fix"></div>
+
+<div class="display-label">
+    @Html.DisplayNameFor(model => model.Total)
+</div>
+<div class="display-field">
+    @Html.DisplayFor(model => model.Total)
+</div>
+
+<p>
+    @using (Html.BeginForm()) {
+        <p>
+            <input type="submit" value="Finish and Pay" />
+        </p>
+    }
+</p>

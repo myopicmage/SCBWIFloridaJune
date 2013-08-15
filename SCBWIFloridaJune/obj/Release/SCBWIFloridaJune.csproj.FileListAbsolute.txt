@@ -1,0 +1,198 @@
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\SCBWIFloridaJune.dll
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\SCBWIFloridaJune.pdb
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\Antlr3.Runtime.dll
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\DataAnnotationsExtensions.ClientValidation.dll
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\DataAnnotationsExtensions.dll
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\DotNetOpenAuth.Core.dll
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\EntityFramework.dll
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\Newtonsoft.Json.dll
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Net.Http.Formatting.dll
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.Helpers.dll
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.Http.dll
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.Http.WebHost.dll
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.Mvc.dll
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.Optimization.dll
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.Razor.dll
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.WebPages.Deployment.dll
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.WebPages.dll
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.WebPages.Razor.dll
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\WebActivator.dll
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\WebGrease.dll
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\WebMatrix.Data.dll
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\WebMatrix.WebData.dll
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\EntityFramework.xml
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\Newtonsoft.Json.xml
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Net.Http.Formatting.xml
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.Helpers.xml
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.Http.xml
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.Http.WebHost.xml
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.Mvc.xml
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.Razor.xml
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.WebPages.xml
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.WebPages.Deployment.xml
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.WebPages.Razor.xml
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\WebMatrix.Data.xml
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\WebMatrix.WebData.xml
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\DotNetOpenAuth.Core.xml
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\obj\Release\SCBWIFloridaJune.Migrations.InitialCreate.resources
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\obj\Release\SCBWIFloridaJune.Migrations.gogogo.resources
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\obj\Release\SCBWIFloridaJune.Migrations.somemodifications.resources
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\obj\Release\SCBWIFloridaJune.Migrations.tracks.resources
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\obj\Release\SCBWIFloridaJune.Migrations.alex.resources
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\obj\Release\SCBWIFloridaJune.csproj.GenerateResource.Cache
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\obj\Release\SCBWIFloridaJune.dll
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\obj\Release\SCBWIFloridaJune.pdb
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\obj\Release\SCBWIFloridaJune.csprojResolveAssemblyReference.cache
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\obj\Release\SCBWIFloridaJune.Migrations.removerequired.resources
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\obj\Release\SCBWIFloridaJune.Migrations.critiquetype.resources
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\ActionMailer.Net.dll
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\ActionMailer.Net.Mvc.dll
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\ActionMailer.Net.pdb
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\ActionMailer.Net.xml
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\ActionMailer.Net.Mvc.pdb
+C:\Users\kevin\Dropbox\Visual Studio 2012\Projects\SCBWIFloridaJune\SCBWIFloridaJune\bin\ActionMailer.Net.Mvc.xml
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\SCBWIFloridaJune.dll
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\SCBWIFloridaJune.pdb
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\ActionMailer.Net.dll
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\ActionMailer.Net.Mvc.dll
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\Antlr3.Runtime.dll
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\DataAnnotationsExtensions.ClientValidation.dll
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\DataAnnotationsExtensions.dll
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\DotNetOpenAuth.Core.dll
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\EntityFramework.dll
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\Newtonsoft.Json.dll
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Net.Http.Formatting.dll
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.Helpers.dll
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.Http.dll
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.Http.WebHost.dll
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.Mvc.dll
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.Optimization.dll
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.Razor.dll
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.WebPages.Deployment.dll
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.WebPages.dll
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.WebPages.Razor.dll
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\WebActivator.dll
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\WebGrease.dll
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\WebMatrix.Data.dll
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\WebMatrix.WebData.dll
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\ActionMailer.Net.pdb
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\ActionMailer.Net.xml
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\ActionMailer.Net.Mvc.pdb
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\ActionMailer.Net.Mvc.xml
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\EntityFramework.xml
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\Newtonsoft.Json.xml
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Net.Http.Formatting.xml
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.Helpers.xml
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.Http.xml
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.Http.WebHost.xml
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.Mvc.xml
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.Razor.xml
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.WebPages.xml
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.WebPages.Deployment.xml
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.WebPages.Razor.xml
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\WebMatrix.Data.xml
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\WebMatrix.WebData.xml
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\DotNetOpenAuth.Core.xml
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\obj\Release\SCBWIFloridaJune.csprojResolveAssemblyReference.cache
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\obj\Release\SCBWIFloridaJune.Migrations.help.resources
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\obj\Release\SCBWIFloridaJune.csproj.GenerateResource.Cache
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\obj\Release\SCBWIFloridaJune.dll
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\obj\Release\SCBWIFloridaJune.pdb
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\SCBWIFloridaJune.dll
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\SCBWIFloridaJune.pdb
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\ActionMailer.Net.dll
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\ActionMailer.Net.Mvc.dll
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\Antlr3.Runtime.dll
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\DataAnnotationsExtensions.ClientValidation.dll
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\DataAnnotationsExtensions.dll
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\DotNetOpenAuth.Core.dll
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\EntityFramework.dll
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\Newtonsoft.Json.dll
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Net.Http.Formatting.dll
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.Helpers.dll
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.Http.dll
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.Http.WebHost.dll
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.Mvc.dll
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.Optimization.dll
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.Razor.dll
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.WebPages.dll
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.WebPages.Razor.dll
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\WebActivator.dll
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\WebGrease.dll
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\WebMatrix.Data.dll
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\WebMatrix.WebData.dll
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\ActionMailer.Net.pdb
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\ActionMailer.Net.xml
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\ActionMailer.Net.Mvc.pdb
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\ActionMailer.Net.Mvc.xml
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\EntityFramework.xml
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\Newtonsoft.Json.xml
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Net.Http.Formatting.xml
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.Helpers.xml
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.Http.xml
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.Http.WebHost.xml
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.Mvc.xml
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.Razor.xml
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.WebPages.xml
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\System.Web.WebPages.Razor.xml
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\WebMatrix.Data.xml
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\WebMatrix.WebData.xml
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\DotNetOpenAuth.Core.xml
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\obj\Release\SCBWIFloridaJune.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\obj\Release\SCBWIFloridaJune.Migrations.help.resources
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\obj\Release\SCBWIFloridaJune.csproj.GenerateResource.Cache
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\obj\Release\SCBWIFloridaJune.dll
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\obj\Release\SCBWIFloridaJune.pdb
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\obj\Release\SCBWIFloridaJune.Migrations.minorchanges.resources
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\CsvHelper.dll
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\CsvHelper.pdb
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\CsvHelper.xml
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\CsvHelper.dll
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\CsvHelper.pdb
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\bin\CsvHelper.xml
+C:\Users\Kevin\dropboxthesecond\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\obj\Release\SCBWIFloridaJune.Migrations.minorchanges.resources
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\obj\Release\SCBWIFloridaJune.Migrations.uh.resources
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\obj\Release\SCBWIFloridaJune.Migrations.lisawheeler.resources
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\obj\Release\SCBWIFloridaJune.Migrations.lisawheeler1.resources
+C:\Users\kevin\Dropbox\ASPNET\SCBWIFloridaJune\SCBWIFloridaJune\obj\Release\SCBWIFloridaJune.Migrations.hasadigaeebowai.resources

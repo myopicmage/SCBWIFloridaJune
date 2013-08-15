@@ -1,0 +1,134 @@
+﻿@model SCBWIFloridaJune.Models.ViewModels.EmailModel
+
+@{
+    ViewBag.Title = "PendingRegistration.html";
+}
+
+<h2>PendingRegistration.html</h2>
+
+<fieldset>
+    <legend>EmailModel</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.BadgeName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.BadgeName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Name)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Name)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Address1)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Address1)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Address2)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Address2)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.City)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.City)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.State)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.State)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.PostalCode)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PostalCode)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Country)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Country)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Email)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Email)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Phone)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Phone)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.SpecialNeeds)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.SpecialNeeds)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.NumCritiques)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.NumCritiques)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Type)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Type)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Intensive)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Intensive)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Track)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Track)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.FridayLunch)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.FridayLunch)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.SaturdayLunch)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.SaturdayLunch)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id=Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

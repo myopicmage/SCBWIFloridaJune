@@ -1,0 +1,49 @@
+﻿@model SCBWIFloridaJune.Models.User
+
+@{
+    ViewBag.Title = "Is This You?";
+}
+
+<h2>Hey! It looks like you've been here before!</h2>
+
+<p>
+    Is this you?
+</p>
+
+<fieldset>
+    <legend>User</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.FullName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.FullName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.City)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.City)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.State)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.State)
+    </div>
+</fieldset>
+
+<p>
+    If it is, we'll let you verify all of your information, then send you straight off to PayPal.
+</p>
+<p>
+    If it isn't, OOPS. Our bad! We'll send you to the sign up page.
+</p>
+<p>
+    So which is it?
+</p>
+<p>
+    @Html.ActionLink("Yep, this is me!", "CreateWithAccount") | @Html.ActionLink("Nope, you've got the wrong guy", "CreateNoAccount") 
+</p>

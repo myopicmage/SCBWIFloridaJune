@@ -1,0 +1,50 @@
+﻿@model SCBWIFloridaJune.Models.Registration
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Registration</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Type)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Type)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Intensive)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Intensive)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Track)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Track)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.FridayLunch)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.FridayLunch)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.SaturdayLunch)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.SaturdayLunch)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.RegistrationID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

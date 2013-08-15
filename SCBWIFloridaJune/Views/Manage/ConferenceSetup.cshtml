@@ -1,0 +1,76 @@
+﻿@model SCBWIFloridaJune.Models.ViewModels.OpenCloseDate
+
+@{
+    ViewBag.Title = "Conference Setup";
+}
+
+<h2>Conference Setup</h2>
+
+<p>
+    First, we need to know when your conference is happening. Enter your dates as MM/DD/YYYY,
+    though if you enter it as MM-DD-YYYY it doesn't matter.
+</p>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>OpenCloseDate</legend>
+        
+        <div class="editor-label">
+            @Html.LabelFor(model => model.OpenDate)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.OpenDate)
+            @Html.ValidationMessageFor(model => model.OpenDate)
+        </div>
+        
+        <div class="editor-label">
+            @Html.LabelFor(model => model.CloseDate)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.CloseDate)
+            @Html.ValidationMessageFor(model => model.CloseDate)
+        </div>
+        
+        <div class="editor-label">
+            @Html.LabelFor(model => model.RegOpenDate)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.RegOpenDate)
+            @Html.ValidationMessageFor(model => model.RegOpenDate)
+        </div>
+        
+        <div class="editor-label">
+            @Html.LabelFor(model => model.RegCloseDate)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.RegCloseDate)
+            @Html.ValidationMessageFor(model => model.RegCloseDate)
+        </div>
+        
+        <div class="editor-label">
+            @Html.LabelFor(model => model.RegLateDate)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.RegLateDate)
+            @Html.ValidationMessageFor(model => model.RegLateDate)
+        </div>
+        
+        <div class="editor-label">
+            @Html.LabelFor(model => model.LastEditDate)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.LastEditDate)
+            @Html.ValidationMessageFor(model => model.LastEditDate)
+        </div>
+
+        <p>
+            <input type="submit" value="Continue" />
+        </p>
+    </fieldset>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

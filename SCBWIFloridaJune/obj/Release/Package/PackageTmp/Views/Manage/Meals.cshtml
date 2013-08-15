@@ -1,0 +1,50 @@
+﻿@model SCBWIFloridaJune.Models.ViewModels.MealModel
+
+@{
+    ViewBag.Title = "Meals";
+}
+
+<h2>Meals</h2>
+<p>
+    Okay, last page! Give us your meal information. This will be used for both Friday and Saturday.
+</p>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>MealModel</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Meal1)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Meal1)
+            @Html.ValidationMessageFor(model => model.Meal1)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Meal2)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Meal2)
+            @Html.ValidationMessageFor(model => model.Meal2)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Meal3)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Meal3)
+            @Html.ValidationMessageFor(model => model.Meal3)
+        </div>
+
+        <p>
+            <input type="submit" value="Continue" />
+        </p>
+    </fieldset>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

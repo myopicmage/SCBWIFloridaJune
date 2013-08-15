@@ -1,0 +1,17 @@
+﻿@model SCBWIFloridaJune.Models.ViewModels.LastUser
+
+@{
+    ViewBag.Title = "Management Portal";
+}
+
+<h2>Conference Management Portal</h2>
+
+<article>
+    <h3>
+        Registrations
+    </h3>
+    <p>
+        @Html.ActionLink("Completed Registrations", "Manage", "PictureBook")<br />
+        @Html.ActionLink("Waiting List", "WaitingList", "PictureBook")
+    </p>
+</article>

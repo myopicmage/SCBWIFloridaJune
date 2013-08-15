@@ -1,0 +1,102 @@
+﻿@model SCBWIFloridaJune.Models.ViewModels.IntensivePrices
+
+@{
+    ViewBag.Title = "Intensives and Critiques";
+}
+
+<h2>Intensives and Critiques</h2>
+<p>
+    You're nearing the end of the wizard! Just one more page after this.
+</p>
+<p>
+    If you need to add another critique or intensive, you can do so after the wizard is finished. Remember, you can edit everything
+    yourself if you need to.
+</p>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>IntensivePrices</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.IntensivePrice)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.IntensivePrice)
+            @Html.ValidationMessageFor(model => model.IntensivePrice)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Intensive1)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Intensive1)
+            @Html.ValidationMessageFor(model => model.Intensive1)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Intensive2)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Intensive2)
+            @Html.ValidationMessageFor(model => model.Intensive2)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Intensive3)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Intensive3)
+            @Html.ValidationMessageFor(model => model.Intensive3)
+        </div>
+        
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Intensive4)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Intensive4)
+            @Html.ValidationMessageFor(model => model.Intensive4)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.CritiquePrice)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.CritiquePrice)
+            @Html.ValidationMessageFor(model => model.CritiquePrice)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.AuthorCritique)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.AuthorCritique)
+            @Html.ValidationMessageFor(model => model.AuthorCritique)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ArtCritique)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.ArtCritique)
+            @Html.ValidationMessageFor(model => model.ArtCritique)
+        </div>
+        
+        <div class="editor-label">
+            @Html.LabelFor(model => model.DummyCritique)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.DummyCritique)
+            @Html.ValidationMessageFor(model => model.DummyCritique)
+        </div>
+
+        <p>
+            <input type="submit" value="Continue" />
+        </p>
+    </fieldset>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

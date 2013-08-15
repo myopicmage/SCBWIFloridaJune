@@ -1,0 +1,97 @@
+﻿@using ActionMailer.Net
+@model SCBWIFloridaJune.Models.LisaWheeler
+
+@{
+    Layout = null;
+}
+
+<h2>Congratulations! You made it!</h2>
+<p>
+    We received your reigstration, AND your payment! You're signed up! If you requested a critique, we'll email you shortly to tell
+    you who is critiquing your manuscript.
+</p>
+<p>
+    Oh, just to be sure, here's the information we have on file for you. Don't reply to this email, but email <a href="mailto:lindabernfeld@gmail.com">Linda</a>
+    if there's an issue.
+</p>
+
+<fieldset>
+    <legend>Your Order</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.FirstName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.FirstName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.LastName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.LastName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Address1)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Address1)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Address2)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Address2)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.City)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.City)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.State)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.State)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Zip)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Zip)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Phone)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Phone)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Email)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Email)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Member)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Member)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Critique)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Critique)
+    </div>
+</fieldset>

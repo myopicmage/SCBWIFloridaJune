@@ -1,0 +1,43 @@
+﻿@model SCBWIFloridaJune.Models.ViewModels.CritiqueView
+
+@{
+    ViewBag.Title = "Critique";
+}
+
+<h2>Step 3: Your work.</h2>
+
+<p>
+    If you'd like, for an extra $@ViewBag.price each, you can have some of your work critiqued! This is entirely optional.
+</p>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Critique</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.NumCritiques)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.NumCritiques)
+            @Html.ValidationMessageFor(model => model.NumCritiques)
+        </div>
+        
+        <div class="editor-label">
+            @Html.LabelFor(model => model.CritiqueType)
+        </div>
+        <div class="editor-field">
+            @Html.DropDownListFor(model => model.CritiqueType, (SelectList)ViewBag.Critiques, "Select One")
+            @Html.ValidationMessageFor(model => model.CritiqueType)
+        </div>
+
+        <p>
+            <input type="submit" value="Continue" />
+        </p>
+    </fieldset>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

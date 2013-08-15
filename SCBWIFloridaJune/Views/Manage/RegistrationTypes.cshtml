@@ -1,0 +1,62 @@
+﻿@model SCBWIFloridaJune.Models.ViewModels.RegTypes
+
+@{
+    ViewBag.Title = "Registration Types";
+}
+
+<h2>Registration Prices</h2>
+<p>
+    Now, set your registration type prices. If you need to change their names or prices in the future, don't worry! You'll
+    be able to do so from the main management screen.
+</p>
+<p>
+    There's no need to enter a $, we'll take care of that for you.
+</p>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>RegTypes</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.EarlyMemberPrice)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.EarlyMemberPrice)
+            @Html.ValidationMessageFor(model => model.EarlyMemberPrice)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.LateMemberPrice)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.LateMemberPrice)
+            @Html.ValidationMessageFor(model => model.LateMemberPrice)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.EarlyNonMemberPrice)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.EarlyNonMemberPrice)
+            @Html.ValidationMessageFor(model => model.EarlyNonMemberPrice)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.LateNonMemberPrice)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.LateNonMemberPrice)
+            @Html.ValidationMessageFor(model => model.LateNonMemberPrice)
+        </div>
+
+        <p>
+            <input type="submit" value="Continue" />
+        </p>
+    </fieldset>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

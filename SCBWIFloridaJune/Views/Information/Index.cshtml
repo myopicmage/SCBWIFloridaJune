@@ -1,0 +1,40 @@
+﻿@model IEnumerable<SCBWIFloridaJune.Models.Information>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Pertinent Information</h2>
+
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Value)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Value)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.InformationID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.InformationID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.InformationID })
+        </td>
+    </tr>
+}
+
+</table>
+
+<p>
+    @Html.ActionLink("Back to list", "Index", "Manage")
+</p>

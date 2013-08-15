@@ -1,0 +1,44 @@
+﻿@model SCBWIFloridaJune.Models.ViewModels.LastUser
+
+@{
+    ViewBag.Title = "Management Portal";
+}
+
+<h2>Conference Management Portal</h2>
+
+<article>
+    <h3>
+        Registrations
+    </h3>
+    <p>
+        @Html.ActionLink("Completed Registrations", "Completed", "Manage")<br />
+        @Html.ActionLink("Critiques", "Index", "Critique")<br />
+        @Html.ActionLink("Partial Registrations", "Partial", "Manage")<br />
+    </p>
+    
+    <h3>
+        Conference Setup
+    </h3>
+    <p>
+        @Html.ActionLink("Dates", "Index", "Date")<br />
+        @Html.ActionLink("Prices", "Index", "Price")<br />
+        @Html.ActionLink("Tracks", "Index", "Track")<br />
+        @Html.ActionLink("Information", "Index", "Information")
+    </p>
+</article>
+
+<aside>
+    <h3>
+        Last Registration
+    </h3>
+    <div id="lastReg">
+        <p>
+            @Html.LabelFor(model => model.Name)
+            @Html.DisplayFor(model => model.Name)
+        </p>
+        <p>
+            @Html.LabelFor(model => model.Created)
+            @Html.DisplayFor(model => model.Created)
+        </p>
+    </div>
+</aside>

@@ -1,0 +1,80 @@
+﻿@model SCBWIFloridaJune.Models.Registration
+
+@{
+    ViewBag.Title = "Conference";
+}
+
+<h2>Step 2: Your Conference.</h2>
+
+<p>
+    The Mid-Year conference is all about choice! This is where you build the conference that's right for you.
+</p>
+
+@using (Html.BeginForm(null, null, FormMethod.Post, new {id = "form"})) {
+    @Html.ValidationSummary(true)
+    @Html.AntiForgeryToken()
+
+    <div class="hidden" id="errorbox" style="color: red; margin-bottom: 10px;"></div>
+    
+    <fieldset>
+        <legend>Registration</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Type)
+        </div>
+        <div class="editor-field">
+            @Html.DropDownListFor(model => model.Type, (SelectList)ViewBag.regtypes, "Select One")
+            @Html.ValidationMessageFor(model => model.Type)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Track)
+        </div>
+        <div class="editor-field">
+            @Html.DropDownListFor(model => model.Track, (SelectList)ViewBag.tracks, "Select One")
+            @Html.ValidationMessageFor(model => model.Track)
+        </div>
+        
+        <div class="editor-label">
+            @Html.LabelFor(model => model.SaturdayLunch)
+        </div>
+        <div class="editor-field">
+            @Html.DropDownListFor(model => model.SaturdayLunch, (SelectList)ViewBag.saturday, "Select One")
+            @Html.ValidationMessageFor(model => model.SaturdayLunch)
+        </div>
+        
+        <div id="intensivebox">
+            <p>Since you're a member, you can optionally select an intensive for friday. They're an extra
+                <span style="color: red;">$180</span>
+            </p>
+            <div class="editor-label">
+                @Html.LabelFor(model => model.Intensive)
+            </div>
+            <div class="editor-field">
+                @Html.DropDownListFor(model => model.Intensive, (SelectList)ViewBag.intensives, "Select One")
+                @Html.ValidationMessageFor(model => model.Intensive)
+            </div>
+
+            <div class="editor-label">
+                @Html.LabelFor(model => model.FridayLunch)
+            </div>
+            <div class="editor-field">
+                @Html.DropDownListFor(model => model.FridayLunch, (SelectList)ViewBag.friday, "Select One")
+                @Html.ValidationMessageFor(model => model.FridayLunch)
+            </div>
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/Scripts/conference.js")
+}

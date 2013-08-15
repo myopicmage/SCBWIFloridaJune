@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:p6b7qgsvwm.database.windows.net,1433;Database=scbwiARiGZAmOvcb;User ID=scbwiflorida2013@p6b7qgsvwm;Password=SCBWIjune2013;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\kevin\\Dropbox\\ASPNET\\SCBWIFloridaJune\\SCBWIFloridaJune\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="SCBWI-Web.config Connection String" description="SCBWI Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:p6b7qgsvwm.database.windows.net,1433;Database=scbwiARiGZAmOvcb;User ID=scbwiflorida2013@p6b7qgsvwm;Password=SCBWIjune2013;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\kevin\\Dropbox\\ASPNET\\SCBWIFloridaJune\\SCBWIFloridaJune\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SCBWI']/@connectionString" />
+  </parameter>
+  <parameter name="SCBWI_DatabasePublish-Web.config Connection String" description="SCBWI_DatabasePublish Connection String used in web.config by the application to access the database." defaultValue="SCBWI_DatabasePublish.ConnetionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\kevin\\Dropbox\\ASPNET\\SCBWIFloridaJune\\SCBWIFloridaJune\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SCBWI_DatabasePublish']/@connectionString" />
+  </parameter>
+</parameters>
